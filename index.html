@@ -341,9 +341,8 @@ header {
 }
 
 .branches-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .branch-card {
@@ -352,6 +351,8 @@ header {
     border-radius: 12px;
     text-align: center;
     border: 1px solid #E0E0E0;
+    max-width: 500px;
+    width: 100%;
 }
 
 .branch-icon {
@@ -435,7 +436,7 @@ footer {
                 <a href="#about">عن الزعيم</a>
                 <a href="#categories">الأقسام</a>
                 <a href="#menu">المنيو</a>
-                <a href="#contact">التواصل والفروع</a>
+                <a href="#contact">العنوان والتوصيل</a>
             </nav>
             <div class="menu-toggle" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
@@ -465,7 +466,7 @@ footer {
                 <h2>عن مطعم الزعيم</h2>
                 <div class="divider"></div>
                 <p>
-                    في الزعيم، نؤمن أن الطعم المميز يبدأ من جودة المكونات وينتهي برضا عملائنا. نقدم لكم أشهى انواع البيتزا والفطائر والحواوشي، محضرة يوميًا بعناية وبأفضل المكونات الطازجة، لنمنحكم تجربة مليئة بالنكهة والجودة. نسعد بخدمتكم دائمًا، لأن ثقتكم هي سر نجاحنا.
+                    في الزعيم، نؤمن أن الطعم المميز يبدأ من جودة المكونات وينتهي برضا عملائنا. نقدم لكم أشهى انواع البيتزا والفطائر والحواوشي، محضرة يوميًا بعناية وبأفضل المكونات الطازجة، لنمنحكم تجربة مليئة بالنكهة والجودة. نسعد بخدمتكم دائمًا، لأن ثقتكم هي سر نجاحينا.
                 </p>
             </div>
         </div>
@@ -546,7 +547,7 @@ footer {
     <!-- Contact & Location Section -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="section-title">الفروع والتوصيل</h2>
+            <h2 class="section-title">العنوان والتوصيل</h2>
             
             <div class="delivery-banner">
                 <i class="fas fa-motorcycle"></i>
@@ -561,12 +562,7 @@ footer {
             <div class="branches-grid">
                 <div class="branch-card">
                     <i class="fas fa-map-marker-alt branch-icon"></i>
-                    <h3>الفرع الأول</h3>
-                    <p>محور جمال عبد الناصر – الحي العاشر – أمام مول البشاير.</p>
-                </div>
-                <div class="branch-card">
-                    <i class="fas fa-map-marker-alt branch-icon"></i>
-                    <h3>الفرع الثاني</h3>
+                    <h3>عنوان المطعم</h3>
                     <p>سنتر اليسر – بجوار جنة للخضار</p>
                 </div>
             </div>
